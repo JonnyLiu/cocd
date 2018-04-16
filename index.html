@@ -77,9 +77,10 @@
 
         /* ]]> */
     </script>
-    <script type="text/javascript" src="js/1.js">
-        /*Cache!*/
-    </script>
+    <script type="text/javascript" src="js/1.js"></script>
+    
+        
+    
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://w-52279-76022-97188.479019151.sites.hk35.qifeiye.com/xmlrpc.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://w-52279-76022-97188.479019151.sites.hk35.qifeiye.com/qfy-includes/wlwmanifest.xml" />
 
@@ -240,7 +241,8 @@
 </head>
 
 
-<body class="home page page-id-9761 page-template-default logged-in image-blur free_public btn-flat content-fullwidth qfe-js-composer js-comp-ver-4.0.1 vc_responsive" data-pid="9761" data-pkey="c02dfa211f20abbc3310a5db2d87d952">
+<body class="
+	 page page-id-9761 page-template-default logged-in image-blur free_public btn-flat content-fullwidth qfe-js-composer js-comp-ver-4.0.1 vc_responsive" data-pid="9761" data-pkey="c02dfa211f20abbc3310a5db2d87d952">
 
     <div id="page" class=' header_bg_mobilehide breackall wide '>
 
@@ -279,10 +281,10 @@
                     <!-- !- Navigation -->
                     <nav style="0" id="navigation" class="wf-wrap" bitDataAction="site_menu_container" bitDataLocation="primary">
                         <ul id="main-nav" data-st="0" data-sp="0" data-fh="" data-mw="" data-lh="" class="mainmenu fancy-rollovers wf-mobile-hidden bit-menu-default underline-hover position-text-right" data-bit-menu=underline-hover data-bit-float-menu=underline-hover>
-                            <li class=" menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9761 current_page_item bit-menu-post-id-9761 menu-item-9901 act first"><a href="主页.html"><span>Home</span></a></li>
-                            <li class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home bit-menu-post-id-8415 menu-item-8415"><a href="主页.html"><span>About Us</span></a></li>
-                            <li class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home bit-menu-post-id-8416 menu-item-8416"><a href="主页.html"><span>Our Philosophy</span></a></li>
-                            <li class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home bit-menu-post-id-8417 menu-item-8417"><a href="主页.html"><span>Our work</span></a></li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9761 current_page_item bit-menu-post-id-9761 menu-item-9901 act first"><a href="index.html"><span>Home</span></a></li>
+                            <li class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home bit-menu-post-id-8415 menu-item-8415"><a href="index.html"><span>About Us</span></a></li>
+                            <li class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home bit-menu-post-id-8416 menu-item-8416"><a href="index.html"><span>Our Philosophy</span></a></li>
+                            <li class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home bit-menu-post-id-8417 menu-item-8417"><a href="index.html"><span>Our work</span></a></li>
                         </ul>
 
 
@@ -424,13 +426,17 @@
                 </script>
                 <script type="text/javascript">
                     var tpj = jQuery;
+                    alert(tpj);
                     tpj.noConflict();
                     var revapi4;
 
                     function run_revApi() {
-                        if (tpj('#rev_slider_4_1').revolution == undefined)
-                            revslider_showDoubleJqueryError('#rev_slider_4_1');
-                        else {
+                        if (tpj('#rev_slider_4_1').revolution == undefined){
+                        	revslider_showD
+                            bleJqueryError('#rev_slider_4_1');
+                        }
+                            
+                        else{
 
                             revapi4 = tpj('#rev_slider_4_1').show().revolution(revapi4_param);
                         }
@@ -443,6 +449,7 @@
                         }
 
                     }); //ready
+                    
                 </script>
 
                 <!-- END REVOLUTION SLIDER -->
